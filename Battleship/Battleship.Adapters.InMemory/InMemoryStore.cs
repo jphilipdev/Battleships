@@ -4,7 +4,7 @@ using System;
 
 namespace Battleship.Adapters.InMemory
 {
-    public class InMemoryStore : IStore
+    public class InMemoryStore : ICommandStore
     {
         public void AddAttack(IAttack attack)
         {

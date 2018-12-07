@@ -14,9 +14,9 @@ namespace Battleship.Core.CommandHandlers
 
     public class AttackCommandHandler : IAttackCommandHandler
     {
-        private readonly IStore _store;
+        private readonly ICommandStore _store;
 
-        public AttackCommandHandler(IStore store)
+        public AttackCommandHandler(ICommandStore store)
         {
             _store = store;
         }
